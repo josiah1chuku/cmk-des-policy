@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "effect": {
+      "value": "Deny"
+    },
+    "policyDefinitionId": {
+      "value": "/subscriptions/e0f8f625-1c82-4986-a4e1-138fc00aa0a3/providers/Microsoft.Authorization/policyDefinitions/require-cmk-disk-encryption-set"
+    }
+  }
+}
